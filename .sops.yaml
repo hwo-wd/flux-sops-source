@@ -1,5 +1,5 @@
 # creation rules are evaluated sequentially, the first match wins
 creation_rules:
-  - path_regex: .*.ya?ml
+  - path_regex: .*\.ya?ml
     encrypted_regex: '^(data|stringData)$'
     age: "age1q704esh8hjphy28k5chagx0dujh3l0leu7zl3n7khvy5k9mnselsahtz6y"
